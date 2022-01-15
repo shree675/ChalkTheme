@@ -1,21 +1,22 @@
 {
-    "name": "custom-theme",
-    "displayName": "custom-theme",
-    "description": "",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.54.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "chalk-theme",
-                "uiTheme": "vs-dark",
-                "path": "./themes/custom-theme-color-theme.json"
-            }
-        ]
-    }
+  "name": "chalk-theme",
+  "displayName": "Chalk Theme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.54.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "chalk-theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/chalk-theme.json"
+      }
+    ]
+  },
+  "dependencies": {}
 }
