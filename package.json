@@ -1,8 +1,12 @@
 {
   "name": "chalk-theme",
   "displayName": "Natural Chalk Theme",
-  "description": "",
-  "version": "0.0.3",
+  "description": "A VSCode color theme inspired by chalk colors",
+  "version": "0.1.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shree675/ChalkTheme"
+  },
   "publisher": "shree675",
   "engines": {
     "vscode": "^1.54.0"
@@ -13,7 +17,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "chalk-theme",
+        "label": "Natural Chalk Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/chalk-theme.json"
       }

@@ -5,6 +5,10 @@
 A VSCode color theme inspired by chalk colors.  
 Based on dark theme.
 
+## Install
+
+Click [here](https://marketplace.visualstudio.com/items?itemName=shree675.chalk-theme) to download the theme. Select **Natural Chalk Theme** from the _Color Theme_ menu to use the theme.
+
 ## Screenshots
 
 <div>.js</div>
@@ -26,4 +30,4 @@ Based on dark theme.
 
 ## Version
 
-v1.0
+v0.1.1
