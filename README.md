@@ -1,10 +1,12 @@
-# Chalk Theme
+# Natural Chalk Theme
 
 ## About
+
 A VSCode color theme inspired by chalk colors.  
 Based on dark theme.
 
 ## Screenshots
+
 <div>.js</div>
 <img src="https://user-images.githubusercontent.com/58718144/149080642-dd34dad5-9b11-4fdc-ae76-d6d5eefe7cf5.png" width="720"></img>
 <div>.html</div>
@@ -23,4 +25,5 @@ Based on dark theme.
 <img src="https://user-images.githubusercontent.com/58718144/149081701-5428ed13-3ca5-4eb5-a278-0518f5ebccfd.png" width="720"></img>
 
 ## Version
+
 v1.0

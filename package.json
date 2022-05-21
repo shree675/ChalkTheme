@@ -1,8 +1,9 @@
 {
   "name": "chalk-theme",
-  "displayName": "Chalk Theme",
+  "displayName": "Natural Chalk Theme",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.0.3",
+  "publisher": "shree675",
   "engines": {
     "vscode": "^1.54.0"
   },

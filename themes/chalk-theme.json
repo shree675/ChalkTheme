@@ -1,10 +1,11 @@
 {
-  "name": "chalk-theme",
+  "name": "Natural Chalk Theme",
   "type": "dark",
   "colors": {
-    "editor.background": "#1a1c1d91",
+    "editor.background": "#1a1c1d",
     "editor.foreground": "#b7e7e7",
     "activityBarBadge.background": "#2793db",
+    "editorGroupHeader.tabsBackground": "#1e2c2a",
     "sideBarTitle.foreground": "#c1f59e",
     "titleBar.activeBackground": "#2b3b3b",
     "button.background": "#5da82a",
@@ -12,7 +13,8 @@
     "scrollbarSlider.hoverBackground": "#00ccff42",
     "activityBar.background": "#2b3b3b",
     "sideBar.background": "#1e2c2a",
-    "tab.activeBackground": "#2b3b3b",
+    "tab.activeBackground": "#2c2c2c",
+    "tab.inactiveBackground": "#1e1e1e",
     "editorLineNumber.activeForeground": "#c1ffff",
     "editorCursor.foreground": "#c1ffff",
     "editor.selectionBackground": "#c1ffff48",
@@ -22,12 +24,15 @@
     "editorBracketMatch.border": "#9c909000",
     "editorWidget.background": "#2c2c22",
     "panel.border": "#b7e7e7",
+    "panel.background": "#2c2c22",
     "statusBar.background": "#b7e7e7",
     "statusBar.foreground": "#4a0058",
     "menu.background": "#22423b",
     "notifications.background": "#22423b",
     "terminalCursor.foreground": "#c120e9",
-    "breadcrumb.background": "#2b3b3b"
+    "terminal.background": "#1a1c1d",
+    "terminal.foreground": "#b7e7e7",
+    "breadcrumb.background": "#2c2c2c"
   },
   "tokenColors": [
     {
@@ -101,7 +106,11 @@
     },
     {
       "name": "Tag",
-      "scope": ["entity.name.tag", "meta.tag.sgml", "markup.deleted.git_gutter"],
+      "scope": [
+        "entity.name.tag",
+        "meta.tag.sgml",
+        "markup.deleted.git_gutter"
+      ],
       "settings": {
         "foreground": "#f5656d"
       }
@@ -210,7 +219,11 @@
     },
     {
       "name": "Sub-methods",
-      "scope": ["entity.name.module.js", "variable.import.parameter.js", "variable.other.class.js"],
+      "scope": [
+        "entity.name.module.js",
+        "variable.import.parameter.js",
+        "variable.other.class.js"
+      ],
       "settings": {
         "foreground": "#FF5370"
       }
@@ -233,7 +246,10 @@
     },
     {
       "name": "meta.method.js",
-      "scope": ["meta.class-method.js entity.name.function.js", "variable.function.constructor"],
+      "scope": [
+        "meta.class-method.js entity.name.function.js",
+        "variable.function.constructor"
+      ],
       "settings": {
         "foreground": "#82AAFF"
       }
@@ -247,7 +263,10 @@
     },
     {
       "name": "HTML Attributes",
-      "scope": ["text.html.basic entity.other.attribute-name.html", "text.html.basic entity.other.attribute-name"],
+      "scope": [
+        "text.html.basic entity.other.attribute-name.html",
+        "text.html.basic entity.other.attribute-name"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#FFCB6B"
@@ -311,7 +330,10 @@
     },
     {
       "name": "Decorators",
-      "scope": ["tag.decorator.js entity.name.tag.js", "tag.decorator.js punctuation.definition.tag.js"],
+      "scope": [
+        "tag.decorator.js entity.name.tag.js",
+        "tag.decorator.js punctuation.definition.tag.js"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#82AAFF"
@@ -319,7 +341,9 @@
     },
     {
       "name": "ES7 Bind Operator",
-      "scope": ["source.js constant.other.object.key.js string.unquoted.label.js"],
+      "scope": [
+        "source.js constant.other.object.key.js string.unquoted.label.js"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#FF5370"
@@ -327,7 +351,9 @@
     },
     {
       "name": "JSON Key - Level 0",
-      "scope": ["source.json meta.structure.dictionary.json support.type.property-name.json"],
+      "scope": [
+        "source.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
       "settings": {
         "foreground": "#C792EA"
       }
@@ -406,7 +432,10 @@
     },
     {
       "name": "Markdown - Plain",
-      "scope": ["text.html.markdown", "punctuation.definition.list_item.markdown"],
+      "scope": [
+        "text.html.markdown",
+        "punctuation.definition.list_item.markdown"
+      ],
       "settings": {
         "foreground": "#EEFFFF"
       }
@@ -420,7 +449,9 @@
     },
     {
       "name": "Markdown - Markup Raw Inline Punctuation",
-      "scope": ["text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown"],
+      "scope": [
+        "text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown"
+      ],
       "settings": {
         "foreground": "#65737E"
       }
