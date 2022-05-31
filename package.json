@@ -2,7 +2,8 @@
   "name": "chalk-theme",
   "displayName": "Natural Chalk Theme",
   "description": "A VSCode color theme inspired by chalk colors",
-  "version": "0.1.1",
+  "icon": "assets/icon.png",
+  "version": "0.1.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/shree675/ChalkTheme"
