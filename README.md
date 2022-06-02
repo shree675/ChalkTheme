@@ -1,7 +1,7 @@
 # Natural Chalk Theme
 
-<img src="https://vsmarketplacebadge.apphb.com/version-short/shree675.chalk-theme.svg?"></img>&emsp;
-<img src="https://vsmarketplacebadge.apphb.com/installs/shree675.chalk-theme.svg?"></img>
+<img src="https://vsmarketplacebadge.apphb.com/version-short/shree675.chalk-theme.svg"></img>&emsp;
+<img src="https://vsmarketplacebadge.apphb.com/installs/shree675.chalk-theme.svg"></img>
 
 ## About
 
